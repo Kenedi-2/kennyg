@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+              body{
+                background-color: rgb(127, 172, 183);
+                background-image: linear-gradient(to left, rgb(108, 108, 174),rgb(149, 156, 159));
+            }
+        </style>
+    </head>
+     <body>
+        <div>
+            <form method="post" action="">
+                 <input type="text" name="Fname"  pattern="[A-Za-z]{10}" placeholder="FirstName" required><br><br>
+                 <input type="text" name="Sname" placeholder="last name" required><br><br>
+                 <input type="eamil" name="email" placeholder="email" required><br><br>
+                 <input type="tel" name="Phone_no" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Phone_no" required><br><br>
+                 <input type="text" name="Reg_no" pattern="[0-9]-[A-Za-z]" placeholder="registration_no" required><br><br>
+                 <input type="text" name="University" placeholder="University" required><br><br>
+                   <select name="Region">
+                       <option style="display: none;">---Select Region---</option>
+                       <option>Arusha</option>
+                       <option>Mbeya</option>
+                       <option>Tanga</option>
+                       <option>Tunduma</option>
+                   </select><br><br>
+                   <input type="file" name="upload" placeholder="upload"><br><br>
+                   <input type="submit" name="Request" value="Apply">
+            </form>
+        </div>
+     </body>
+</html>
+
